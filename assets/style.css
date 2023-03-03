@@ -9,6 +9,12 @@
     max-width: 1200px;
 }
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 body{
     font-family: 'Tilt Warp', cursive;
 }
