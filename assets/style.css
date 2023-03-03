@@ -13,6 +13,8 @@
     content: "";
     display: block;
     clear: both;
+    max-width: 1200px;
+    margin-inline: 20px;
 }
 
 body{
@@ -35,9 +37,10 @@ p{
     background-color: black;
     border: 1px solid white;
     float: left;
-    margin-right: 20px;
+    margin-inline: 20px;
     margin-bottom: 2rem;
     box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+    min-width: 280px;
 }
 
 img{
